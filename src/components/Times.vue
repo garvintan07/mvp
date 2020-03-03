@@ -2,7 +2,7 @@
   <div>
       Your Flight takes off at {{this.time}}
       <br/>
-      You are {{this.airportDuration}} away from the airport
+      You are {{this.airportDuration}} away from the {{this.airportName}} airport
       <br/>
       Current TSA wait time at your airport is {{this.tsaWait}}
       
@@ -12,7 +12,7 @@
 <script>
 export default {
   name: 'Times',
-  props: ['tsaWait', 'airportDuration', 'takeOffTime', 'currentTime'],
+  props: ['tsaWait', 'airportDuration', 'takeOffTime', 'currentTime', 'airportName'],
   data() {
     return {
       time: ''
