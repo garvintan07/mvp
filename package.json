@@ -17,7 +17,7 @@
     "cron": "^1.8.2",
     "express": "^4.17.1",
     "messagebird": "^3.4.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.9.3",
     "portal-vue": "^2.1.7",
     "twilio": "^3.39.5",
